@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>numberTwo Survey Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">numberTwo Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to participate in the survey.</em></p>
+  </header>
+  <main>
+    <form id="survey-form" action="https://register-demo.freecodecamp.org">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" name="name" required>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" name="email" required>
+      <label id="number-label" for="quantity">Age <span class="clue">(optional)</span> </label>
+      <input id="number" type="number" placeholder="Age" name="age" min="12" max="40">
+      <label>What stack are you passionate about?
+        <select id="dropdown" required>
+          <option value="" disabled selected>Select stack</option>
+          <option>Frontend Stack</option>
+          <option>Backend Stack</option>
+          <option>Full Stack</option>
+        </select></label>
+      <label>Are you a career shifter?</label>
+      <label class="radioInput"><input type="radio" name="same" value="0" checked>Yes </label>
+      <label class="radioInput"><input type="radio" name="same" value="1">No </label>
+      <label class="radioInput"><input type="radio" name="same" value="2">Somewhat </label>
+      <label>What languages and/or frameworks are you knowledgeable with? <span class="clue">(check all that apply)</span> </label>
+      <table>
+        <tr>
+          <td>
+            <label><input type="checkbox" value="0">HTML/CSS </label>
+            <label><input type="checkbox" value="1">JavaScript </label>
+            <label><input type="checkbox" value="2">Python </label>
+            <label><input type="checkbox" value="3">SQL </label>
+            <label><input type="checkbox" value="4">Java </label>
+            <label><input type="checkbox" value="5">Node.js </label>
+            <label><input type="checkbox" value="6">TypeScript </label>
+          </td>
+          <td>
+            <label><input type="checkbox" value="7">C# </label>
+            <label><input type="checkbox" value="8">Bash </label>
+            <label><input type="checkbox" value="9">Shell </label>
+            <label><input type="checkbox" value="10">C++ </label>
+            <label><input type="checkbox" value="11">PHP </label>
+            <label><input type="checkbox" value="12">C </label>
+            <label><input type="checkbox" value="13">PowerShell </label>
+          </td>
+        </tr>
+      </table>
+      <label>Share your story with us.</label>
+      <textarea rows="6"></textarea>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </main>
+</body>
+
+</html>

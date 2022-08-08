@@ -1,0 +1,105 @@
+body {
+  background-color: #7F8487;
+  background-image: url("https://www.codingem.com/wp-content/uploads/2021/08/safar-safarov-msn8tfhj0is-unsplash-scaled.jpeg");
+  background-attachment: fixed;
+  background-blend-mode: screen;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+h1, p {
+  -webkit-text-fill-color: #100720;
+  font-weight: 700;
+  /* -webkit-text-stroke: 1px #100720; */
+  text-align: center;
+}
+
+h1 {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+#survey-form {
+  width: 40%;
+  max-width: 40%;
+  min-width: 40%;
+  background-color: #100720;
+  margin: 0 auto;
+  padding: 50px;
+  opacity: 90%;
+  border-radius: 5px;
+}
+
+label, select, textarea {
+  display: block;
+  border: 1px solid #100720;
+}
+
+label {
+  margin: 1.5em 0 0 0;
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+input, select, textarea {
+  box-sizing: border-box;
+  border-color: #100720;
+  margin: 8px 0 0 0;
+  min-height: 2em;
+  font-family: inherit;
+  border-radius: 3px;
+  color: darkgrey;
+  font-size: 15px;
+  padding: 6px 0 6px 12px;
+  width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  display: unset;
+  height: 20px;
+  width: 20px;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+td label, .radioInput {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+}
+
+textarea, #submit {
+  border-radius: 2px;
+}
+
+textarea {
+  margin-bottom: 2.5em;
+}
+
+.clue {
+  font-size: 15px;
+}
+
+#submit {
+  background-color: #FA2FB5;
+  color: white;
+  margin-top: 0;
+  padding: 12px 0;
+}
