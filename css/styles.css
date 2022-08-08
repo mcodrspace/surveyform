@@ -67,6 +67,10 @@ input, select, textarea {
   width: 100%;
 }
 
+::placeholder {
+  color: grey;
+}
+
 input[type="radio"], input[type="checkbox"] {
   display: unset;
   height: 20px;
