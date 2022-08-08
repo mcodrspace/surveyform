@@ -67,7 +67,7 @@ input, select, textarea {
   width: 100%;
 }
 
-::placeholder {
+#dropdown option:first-of-type {
   color: grey;
 }
 
