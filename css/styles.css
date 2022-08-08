@@ -69,6 +69,7 @@ input, select, textarea {
 
 option:first-of-type {
   color: grey;
+  opacity: 1;
 }
 
 input[type="radio"], input[type="checkbox"] {
