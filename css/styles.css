@@ -67,7 +67,7 @@ input, select, textarea {
   width: 100%;
 }
 
-#dropdown option:first-of-type {
+option:first-of-type {
   color: grey;
 }
 
