@@ -15,9 +15,8 @@ body {
 }
 
 h1, p {
-  -webkit-text-fill-color: #100720;
+  color: #100720;
   font-weight: 700;
-  /* -webkit-text-stroke: 1px #100720; */
   text-align: center;
 }
 
@@ -62,7 +61,7 @@ input, select, textarea {
   min-height: 2em;
   font-family: inherit;
   border-radius: 3px;
-  color: #2B2B2B;
+  color: black;
   font-size: 15px;
   padding: 6px 0 6px 12px;
   width: 100%;
